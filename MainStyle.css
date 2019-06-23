@@ -1,0 +1,136 @@
+body {
+
+    margin-top: 0px;
+    padding: 0;
+    font-family: "Lucida Sans";
+    background: url(pics/mainimg.png);
+    background-size: cover;
+}
+
+a{
+    text-decoration: inherit;
+}
+
+.adminclass{
+
+    position: fixed;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+.adminbutton {
+
+    position: fixed;
+    font-family: "Lucida Sans";
+    font-weight: 100;
+    font-size: 40px;
+    text-align: center;
+    color: #cacaca;
+    padding: 10px 20px 10px 20px;
+
+    border: solid #cacaca 5px;
+
+    transition-duration: 1000ms;
+
+    margin-left: 1590px;
+
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-top-left-radius: 40px;
+
+}
+
+.adminbutton:hover {
+
+    background: #ad9fab;
+    color: white;
+
+}
+
+.bottombuttons{
+
+    position: fixed;
+    display: block;
+    margin-top: 700px;
+    margin-left: 28%;
+
+}
+
+.HospitalButton{
+
+    position: fixed;
+    font-family: "Lucida Sans";
+    font-weight: 100;
+    font-size: 50px;
+    text-align: center;
+    color: #cacaca;
+    padding: 0px 20px 0px 20px;
+
+    border: solid #cacaca 5px;
+
+    transition-duration: 1000ms;
+
+    width: 800px;
+
+    border-top-right-radius: 40px;
+
+}
+
+.HospitalButton:hover{
+
+    background: #ad9fab;
+    color: white;
+}
+
+.PatientButton{
+
+    position: fixed;
+    font-family: "Lucida Sans";
+    font-weight: 100;
+    font-size: 50px;
+    text-align: center;
+    color: #cacaca;
+    padding: 0px 20px 0px 20px;
+
+    border: solid #cacaca 5px;
+
+    transition-duration: 1000ms;
+
+    width: 800px;
+    margin-top: 80px;
+
+
+}
+.PatientButton:hover{
+
+    background: #ad9fab;
+    color: white;
+
+}
+
+.DonorButton {
+
+    position: fixed;
+    font-family: "Lucida Sans";
+    font-weight: 100;
+    font-size: 50px;
+    text-align: center;
+    color: #cacaca;
+    padding: 0px 20px 0px 20px;
+
+    border: solid #cacaca 5px;
+
+    transition-duration: 1000ms;
+
+    width: 800px;
+    margin-top: 160px;
+
+    border-bottom-left-radius: 40px;
+
+}
+.DonorButton:hover{
+
+    background: #ad9fab;
+    color: white;
+
+}

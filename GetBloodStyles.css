@@ -1,0 +1,188 @@
+body {
+margin-top: -0px;
+padding: 0;
+font-family: sans-serif;
+background: url(pics/getblood.png);
+background-size: 95%;
+
+
+}
+
+.box1 {
+
+position: absolute;
+margin-top: 25px;
+top: 50%;
+left: 30%;
+transform: translate(-50%, -50%);
+width: 600px;
+padding: 20px;
+background: rgba(59, 30, 12, 0.13);
+fill-opacity: 1;
+box-sizing: border-box;
+box-shadow: 0 15px 25px rgba(0,0,0,.5);
+
+}
+
+.box2 {
+
+position: relative;
+margin-top: 70%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 600px;
+padding: 40px;
+background: rgba(59, 30, 12, 0.13);
+fill-opacity: 1;
+box-sizing: border-box;
+box-shadow: 0 15px 25px rgba(0,0,0,.5);
+
+}
+.box1 h2 {
+margin: 0 0 30px;
+padding: 0;
+color: whitesmoke;
+text-align: center;
+}
+
+.box1 h3 {
+margin: 0 0 30px;
+padding: 0;
+color: whitesmoke;
+text-align: center;
+}
+
+.box2 h3 {
+margin: 0 0 30px;
+padding: 0;
+color: whitesmoke;
+text-align: center;
+}
+
+
+.box1 .selection{
+
+position: relative;
+
+transform: translate(-50%, -50%);
+color:  rgb(70, 70, 70);
+fill-opacity: 1;
+width: 560px;
+border: none;
+outline: none;
+
+margin-top: 10px;
+font-size: 16px;
+border-bottom: 1px solid beige;
+background: transparent;
+
+left: 50%;
+}
+
+select{
+
+padding-top: 2%;
+padding-bottom: 2%;
+color: beige;
+position: relative;
+background: inherit;
+text-align: center;
+size: inherit;
+font-size: 16px;
+border: inherit;
+box-sizing: border-box;
+align-content: center;
+width: inherit;
+
+}
+
+.box1 .inputBox {
+position: relative;
+}
+.box1 .inputBox input {
+width: 100%;
+padding: 10px 0;
+font-size: 16px;
+color: beige;
+margin-bottom: 30px;
+border: none;
+border-bottom: 1px solid beige;
+outline: none;
+background: transparent;
+}
+.box1 .inputBox label {
+position: absolute;
+top: 0;
+left: 0;
+padding: 10px 0;
+font-size: 16px;
+color: beige;
+pointer-events: none;
+transition: .5s;
+}
+.box1 .inputBox input:focus ~ label,
+.box1 .inputBox input:valid ~ label {
+top: -20px;
+left: 0%;
+color: beige;
+font-size: 12px;
+}
+
+
+.box1 input[type="submit"] {
+background: transparent;
+outline: none;
+color: beige;
+
+padding: 10px 20px;
+cursor: pointer;
+
+font-family: "Lucida Sans";
+
+cursor: pointer;
+
+font-size: 20px;
+margin:auto;
+display:block;
+transition-duration: 1000ms;
+
+border: solid #cacaca 1px;
+
+}
+
+.box1 input[type="submit"]:hover {
+background: rgba(190, 190, 190, 0.58);
+color: white;
+}
+
+.box2 .inputBox {
+position: relative;
+}
+.box2 .inputBox input {
+width: 100%;
+padding: 10px 0;
+font-size: 16px;
+color: beige;
+margin-bottom: 30px;
+border: none;
+border-bottom: 1px solid beige;
+outline: none;
+background: transparent;
+}
+.box2 .inputBox label {
+position: absolute;
+top: 0;
+left: 0;
+padding: 10px 0;
+font-size: 16px;
+color: beige;
+pointer-events: none;
+transition: .5s;
+}
+.box2 .inputBox input:focus ~ label,
+.box2 .inputBox input:valid ~ label {
+top: -20px;
+left: 0%;
+color: beige;
+font-size: 12px;
+}

@@ -1,0 +1,117 @@
+body {
+    margin-top: -0px;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(pics/DonorDetails.png);
+    background-size: cover;
+}
+
+.backclass{
+
+    position: fixed;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.backbutton {
+
+    position: fixed;
+    font-family: "Lucida Sans";
+    font-weight: 100;
+    font-size: 35px;
+    text-align: center;
+    color: #cacaca;
+    padding: 10px 20px 10px 20px;
+
+    border: solid #cacaca 1px;
+    transition-duration: 1000ms;
+
+    text-decoration: none;
+
+}
+
+.backbutton:hover {
+
+    background: rgb(133, 39, 0);
+    color: white;
+
+}
+
+.box {
+
+    position: absolute;
+    font-family: "Lucida Sans";
+    top: 52%;
+    left: 17%;
+    transform: translate(-50%, -50%);
+    width: 410px;
+    padding: 45px;
+    background: rgba(0,0,0,0.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+
+}
+
+.box h2 {
+
+    font-size: 28px;
+    font-family: "Lucida Sans";
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    color: rgb(255, 239, 253);
+    text-align: center;
+}
+
+.box .inputBox {
+    position: relative;
+}
+
+.box .inputBox input {
+    font-family: "Lucida Sans";
+    width: 100%;
+    padding: 10px 0;
+    font-size: 20px;
+    color: beige;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid beige;
+    outline: none;
+    background: transparent;
+}
+.box .inputBox label {
+    font-family: "Lucida Sans";
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 20px;
+    color: beige;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.box .inputBox input:focus ~ label,
+.box .inputBox input:valid ~ label {
+
+    font-family: "Lucida Sans";
+    top: -20px;
+    left: 0%;
+    color: beige;
+    font-size: 12px;
+}
+.box input[type="submit"] {
+
+    font-family: "Lucida Sans";
+    border: none;
+    outline: none;
+    color: #ffffff;
+    color: rgb(133, 39, 0);
+    padding: 10px 20px;
+    cursor: pointer;
+
+    font-size: 20px;
+
+    margin:auto;
+    display:block;
+}

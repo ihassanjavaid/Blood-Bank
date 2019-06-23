@@ -1,0 +1,60 @@
+html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 10vh;
+    background: url(pics/PatDetails.png);
+    background-size: cover;
+    font-family: "Lucida Sans";
+}
+
+
+.backclass{
+
+    position: fixed;
+    top: 5%;
+    left: 3%;
+}
+
+.backbutton {
+
+    position: fixed;
+    font-family: "Lucida Sans";
+    font-weight: 100;
+    font-size: 20px;
+
+    color: #cacaca;
+    padding: 10px 20px 10px 20px;
+
+    border: solid #cacaca 1px;
+    transition-duration: 1000ms;
+
+    text-decoration: none;
+
+}
+
+.backbutton:hover {
+
+    background: #cacaca;
+    color: white;
+
+}
+
+h1 {
+
+    margin-top: 25%;
+    margin-left: 51%;
+    margin-right: 10%;
+    padding: 0;
+    color: whitesmoke;
+    font-size: 60px;
+    text-align: center;
+    border: solid whitesmoke 3px;
+
+}

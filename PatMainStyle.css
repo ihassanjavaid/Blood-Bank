@@ -1,0 +1,137 @@
+html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 10vh;
+    background: url(pics/PatDetails.png);
+    background-size: cover;
+    font-family: "Lucida Sans";
+}
+
+.box{
+
+    font-family: "Lucida Sans";
+
+    width: border-box;
+    height: 80%;
+
+    margin-top: 20%;
+    margin-left: 65%;
+}
+
+
+.PatDetails {
+
+    position: fixed;
+    font-family: "Lucida Sans";
+    font-size: 30px;
+    text-align: center;
+    color: #cacaca;
+    padding: 10px 20px 10px 20px;
+
+    border: solid #cacaca 1px;
+
+    transition-duration: 1000ms;
+
+    text-decoration: none;
+    width: 320px;
+}
+
+.PatDetails:hover {
+
+    background: rgba(190, 190, 190, 0.58);
+    color: white;
+
+}
+
+.HospDetails {
+
+    position: fixed;
+    font-family: "Lucida Sans";
+    font-size: 30px;
+    text-align: center;
+    color: #cacaca;
+    padding: 10px 20px 10px 20px;
+
+    border: solid #cacaca 1px;
+
+    transition-duration: 1000ms;
+
+    margin-top: 100px;
+
+    text-decoration: none;
+    width: 320px;
+}
+
+.HospDetails:hover {
+
+    background: rgba(190, 190, 190, 0.58);
+    color: white;
+
+}
+
+.getB {
+
+    position: fixed;
+    font-family: "Lucida Sans";
+    font-size: 30px;
+    text-align: center;
+    color: #cacaca;
+    padding: 10px 20px 10px 20px;
+
+    border: solid #cacaca 1px;
+
+    transition-duration: 1000ms;
+
+    margin-left: 0px;
+    margin-top: 200px;
+
+    text-decoration: none;
+    width: 320px;
+}
+
+.getB:hover {
+
+    background: rgba(190, 190, 190, 0.58);
+    color: white;
+
+}
+
+
+
+.backclass{
+
+    position: fixed;
+    margin-top: 330px;
+    margin-left: 40%;
+}
+
+.backbutton {
+
+    position: fixed;
+    font-family: "Lucida Sans";
+    font-size: 30px;
+    text-align: center;
+    color: #cacaca;
+    padding: 10px 20px 10px 20px;
+
+    border: solid #cacaca 1px;
+
+    transition-duration: 1000ms;
+
+    width: 320px;
+
+    text-decoration: none;
+}
+
+.backbutton:hover {
+
+    background: rgba(190, 190, 190, 0.58);
+    color: white;
+}
